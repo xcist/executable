@@ -4,16 +4,16 @@
 import gecatsim as xc
 from gecatsim.reconstruction.pyfiles import recon
 
-##--------- Initialize 
-ct = xc.CatSim("./cfg/Phantom_sample",
-               "./cfg/Protocol_Sample_Helical",
-               "./cfg/Scanner_Sample_generic",
-               "./cfg/Physics_Sample",
-               "./cfg/Recon_Sample_Helical",
+##--------- Initialize
+ct = xc.CatSim("./cfg/Phantom",
+               "./cfg/Protocol",
+               "./cfg/Scanner",
+               "./cfg/Physics",
+               "./cfg/Recon",
 
         )  # initialization
 
-ct.resultsName = "test_Helical"
+ct.resultsName = "test_xcist_executable"
 
 ##--------- Run simulation
 ct.run_all()  # run the scans defined by protocol.scanTypes
