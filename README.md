@@ -12,3 +12,5 @@ Run `gecatsim_Windows.exe`. The input to this executable can only be `sim.py`, b
 
 ## MacOS
 Run `gecatsim_MacOS.exe` from the Terminal command line.
+
+This is for Mac computers using the Apple chip (M1,M2,M3,M4).
